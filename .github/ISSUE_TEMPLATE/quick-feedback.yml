@@ -27,7 +27,7 @@ body:
     - 4 — Good
     - 5 — Excellent
     validations:
-    required: true
+      required: true
 
   - type: dropdown
     id: worked
@@ -38,7 +38,7 @@ body:
     - Partially
     - No
     validations:
-    required: true
+      required: true
 
   - type: textarea
     id: comment
