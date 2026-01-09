@@ -13,11 +13,28 @@ body:
         - DashVERSE
     validations:
       required: true
+  - type: dropdown
+    id: satisfaction
+    attributes:
+      label: Overall experience with this service
+      options:
+        - 1 — Very poor
+        - 2 — Poor
+        - 3 — Acceptable
+        - 4 — Good
+        - 5 — Excellent
   - type: textarea
     id: domain-relevance
     attributes:
       label: Domain Relevance
       description: How does this tool meet the specific needs of your research community?
+  - type: textarea
+    id: synthesis
+    attributes:
+      label: Synthesized feedback
+      description: Distilled themes, not raw comments.
+    validations:
+      required: true
   - type: textarea
     id: nextstep
     attributes:
