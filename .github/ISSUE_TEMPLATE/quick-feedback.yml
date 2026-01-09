@@ -1,0 +1,47 @@
+name: 💬 Quick service feedback (1 minute)
+description: Fast feedback on a deployed service (takes ~1 minute)
+title: "[Quick feedback] <service>: <short summary>"
+labels: ["status/triage", "source/user", "form/quick"]
+body:
+  - type: dropdown
+    id: service
+    attributes:
+    label: Which service are you giving feedback on?
+    options:
+      - RSQKit
+      - Dimensions-Indicators
+      - QualityPipelines
+      - TechRadar
+      - DashVERSE
+      - Other / cross-service
+    validations:
+      required: true
+  - type: dropdown
+    id: satisfaction
+    attributes:
+    label: Overall experience
+    options:
+    - 1 — Very poor
+    - 2 — Poor
+    - 3 — Acceptable
+    - 4 — Good
+    - 5 — Excellent
+    validations:
+    required: true
+
+  - type: dropdown
+    id: worked
+    attributes:
+    label: Did the service allow you to achieve what you wanted?
+    options:
+    - Yes
+    - Partially
+    - No
+    validations:
+    required: true
+
+  - type: textarea
+    id: comment
+    attributes:
+    label: One short comment (optional)
+    description: What is the most important thing we should know?
