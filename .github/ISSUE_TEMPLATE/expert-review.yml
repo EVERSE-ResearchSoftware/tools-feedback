@@ -1,0 +1,19 @@
+name: 🎓 Expert Community Review
+description: Technical feedback from research community experts.
+body:
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Which tool are you reviewing?
+      options:
+        - RSQKit
+        - QualityPipelines
+        - TechRadar
+        - DashVERSE
+    validations:
+      required: true
+  - type: textarea
+    id: domain-relevance
+    attributes:
+      label: Domain Relevance
+      description: How does this tool meet the specific needs of your research community?
