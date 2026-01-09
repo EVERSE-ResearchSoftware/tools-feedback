@@ -21,7 +21,7 @@ We value input from both **users** (researchers, developers) and **domain expert
 
 ### 1. Structured Issues (Preferred)
 
-Please use our [Issue Templates](https://www.google.com/search?q=https://github.com/EVERSE-ResearchSoftware/Feedback/issues/new/choose) to ensure your feedback is routed correctly:
+Please use our [Issue Templates](https://github.com/EVERSE-ResearchSoftware/tools-feedback/issues) to ensure your feedback is routed correctly:
 
 * **🐛 Bug Report:** Encountered a technical problem? Let us know.
 * **💡 Feature Request:** Have a requirement for a new functionality?
