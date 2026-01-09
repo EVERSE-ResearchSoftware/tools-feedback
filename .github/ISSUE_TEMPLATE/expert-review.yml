@@ -18,3 +18,8 @@ body:
     attributes:
       label: Domain Relevance
       description: How does this tool meet the specific needs of your research community?
+  - type: textarea
+    id: nextstep
+    attributes:
+      label: Proposed next step
+      description: Investigation, docs, UX change, discussion, etc.
