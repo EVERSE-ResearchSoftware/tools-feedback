@@ -1,17 +1,19 @@
-# Feedback for Tools Development
+# Feedback EVERSE Services
 
 Welcome to the central feedback repository for the **EVERSE (European Virtual Institute for Research Software Excellence)** tool suite. This space is dedicated to gathering insights, requirements, and technical reviews to ensure our tools meet the needs of the diverse research software community.
 
-## 🛠 Our Tools
+## 🛠 Our Services
 
 We are currently collecting feedback for the following core components:
 
-| Tool | Description | Repository |
+| Tool | Description | Service | Repository |
 | --- | --- | --- |
-| **RSQKit** | Research Software Quality Toolkit | [View Repo](https://github.com/EVERSE-ResearchSoftware/RSQKit) |
-| **QualityPipelines** | CI/CD templates for quality assurance | [View Repo](https://github.com/EVERSE-ResearchSoftware/QualityPipelines) |
-| **TechRadar** | Visualizing the research software landscape | [View Repo](https://github.com/EVERSE-ResearchSoftware/TechRadar) |
-| **DashVERSE** | Analytics dashboard for the EVERSE ecosystem | [View Repo](https://github.com/EVERSE-ResearchSoftware/DashVERSE) |
+| **RSQKit** | Research Software Quality Toolkit | [View service](https://everse.software/RSQKit/) | [View Repo](https://github.com/EVERSE-ResearchSoftware/RSQKit) |
+| **Quality Dimensions and Indicators** | List of Software Quality Dimensions and Indicators used in EVERSE | [View service](https://everse.software/indicators/website/indicators.html) | [View Repo](https://github.com/EVERSE-ResearchSoftware/indicators) |
+| **TechRadar** | Visualizing the research software landscape | [View Service](https://everse.software/TechRadar/) | [View Repo](https://github.com/EVERSE-ResearchSoftware/TechRadar) |
+| **QualityPipelines** | CI/CD templates for quality assurance | | [View Repo](https://github.com/EVERSE-ResearchSoftware/QualityPipelines) |
+| **DashVERSE** | Analytics dashboard for the EVERSE ecosystem | | [View Repo](https://github.com/EVERSE-ResearchSoftware/DashVERSE) |
+| **Training Materials** | Educational resources for research software engineering | [View Service](https://everse-training.app.cern.ch/ ) | |
 
 ---
 
