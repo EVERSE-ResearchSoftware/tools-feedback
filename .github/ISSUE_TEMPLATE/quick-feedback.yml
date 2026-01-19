@@ -13,6 +13,7 @@ body:
       - QualityPipelines
       - TechRadar
       - DashVERSE
+      - Training Marketplace
       - Other / cross-service
     validations:
       required: true
