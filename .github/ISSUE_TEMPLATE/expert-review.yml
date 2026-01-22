@@ -1,5 +1,5 @@
-name: 🎓 Detailed feedback
-description: In-depth feedback on a deployed service (takes ~5–10 minutes)
+name: "🎓 Detailed feedback"
+description: "In-depth feedback on a deployed service (takes ~5–10 minutes)"
 title: "[Feedback] <tool>: <short summary>"
 labels: ["status/triage", "form/detailed"]
 
