@@ -1,13 +1,13 @@
-name: "🎓 Detailed feedback"
-description: "In-depth feedback on a deployed service (takes ~5–10 minutes)"
+name: 🎓 Detailed Usability Feedback
+description: In-depth feedback on a deployed service (takes ~5–10 minutes)
 title: "[Feedback] <tool>: <short summary>"
 labels: ["status/triage", "form/detailed"]
 
 body:
   - type: dropdown
-    id: tool
+    id: service
     attributes:
-      label: Which tool are you reviewing?
+      label: Which service are you reviewing?
       options:
         - RSQKit
         - Dimensions-Indicators
@@ -18,18 +18,188 @@ body:
         - Other / cross-service
     validations:
       required: true
-  - type: dropdown
-    id: satisfaction
+
+  - type: markdown
     attributes:
-      label: Overall experience with this service
+      value: |
+        ---
+        ## System Usability Scale Questionnaire
+        
+        Thank you for taking the time to provide feedback! 
+
+        Please rate your agreement with each statement on a scale of 1-5 (Strongly Disagree to Strongly Agree)
+
+  - type: dropdown
+    id: sus_1
+    attributes:
+      label: 1. I think that I would like to use this system frequently
       options:
-        - 1 — Very poor
-        - 2 — Poor
-        - 3 — Acceptable
-        - 4 — Good
-        - 5 — Excellent
+        - 1 — Strongly Disagree
+        - 2 — Disagree
+        - 3 — Neutral
+        - 4 — Agree
+        - 5 — Strongly Agree
     validations:
       required: true
+
+  - type: dropdown
+    id: sus_2
+    attributes:
+      label: 2. I found the system unnecessarily complex
+      options:
+        - 1 — Strongly Disagree
+        - 2 — Disagree
+        - 3 — Neutral
+        - 4 — Agree
+        - 5 — Strongly Agree
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sus_3
+    attributes:
+      label: 3. I thought the system was easy to use
+      options:
+        - 1 — Strongly Disagree
+        - 2 — Disagree
+        - 3 — Neutral
+        - 4 — Agree
+        - 5 — Strongly Agree
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sus_4
+    attributes:
+      label: 4. I think that I would need the support of a technical person to be able to use this system
+      options:
+        - 1 — Strongly Disagree
+        - 2 — Disagree
+        - 3 — Neutral
+        - 4 — Agree
+        - 5 — Strongly Agree
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sus_5
+    attributes:
+      label: 5. I found the various functions in this system were well integrated
+      options:
+        - 1 — Strongly Disagree
+        - 2 — Disagree
+        - 3 — Neutral
+        - 4 — Agree
+        - 5 — Strongly Agree
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sus_6
+    attributes:
+      label: 6. I thought there was too much inconsistency in this system
+      options:
+        - 1 — Strongly Disagree
+        - 2 — Disagree
+        - 3 — Neutral
+        - 4 — Agree
+        - 5 — Strongly Agree
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sus_7
+    attributes:
+      label: 7. I would imagine that most people would learn to use this system very quickly
+      options:
+        - 1 — Strongly Disagree
+        - 2 — Disagree
+        - 3 — Neutral
+        - 4 — Agree
+        - 5 — Strongly Agree
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sus_8
+    attributes:
+      label: 8. I found the system very cumbersome to use
+      options:
+        - 1 — Strongly Disagree
+        - 2 — Disagree
+        - 3 — Neutral
+        - 4 — Agree
+        - 5 — Strongly Agree
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sus_9
+    attributes:
+      label: 9. I felt very confident using the system
+      options:
+        - 1 — Strongly Disagree
+        - 2 — Disagree
+        - 3 — Neutral
+        - 4 — Agree
+        - 5 — Strongly Agree
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sus_10
+    attributes:
+      label: 10. I needed to learn a lot of things before I could get going with this system
+      options:
+        - 1 — Strongly Disagree
+        - 2 — Disagree
+        - 3 — Neutral
+        - 4 — Agree
+        - 5 — Strongly Agree
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## Additional Feedback (Optional)
+
+  - type: dropdown
+    id: needs_rating
+    attributes:
+      label: How well does this tool meet the specific needs of your research community?
+      options:
+        - 1 — Not at all
+        - 2 — Poorly
+        - 3 — Partially
+        - 4 — Well
+        - 5 — Extremely well
+    validations:
+      required: false
+
+  - type: textarea
+    id: liked_most
+    attributes:
+      label: What did you like most about the system?
+      description: Share what worked well for you
+
+  - type: textarea
+    id: needs_improvement
+    attributes:
+      label: What aspects need the most improvement?
+      description: Help us identify areas that need work (Errors, missing features, UX issues, performance, documentation, etc.)
+
+  - type: textarea
+    id: other_comments
+    attributes:
+      label: Any other comments or suggestions?
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Context (Optional)
+
   - type: dropdown
     id: domain
     attributes:
@@ -42,7 +212,8 @@ body:
         - SSHOC (Social Sciences & Humanities)
         - Other
     validations:
-      required: true
+      required: false
+
   - type: dropdown
     id: role
     attributes:
@@ -55,54 +226,16 @@ body:
         - Trainer
         - Other
     validations:
-      required: true
-  - type: dropdown
-    id: tier
-    attributes:
-      label: Software tier concerned
-      options:
-        - Analysis code
-        - Prototype tools
-        - Research software infrastructure
-        - Not sure
-    validations:
-      required: true
-  - type: dropdown
-    id: needs_rating
-    attributes:
-      label: How well does this tool meet the specific needs of your research community?
-      options:
-        - 1 — Not at all
-        - 2 — Poorly
-        - 3 — Partially
-        - 4 — Well
-        - 5 — Extremely well
-    validations:
-      required: true
+      required: false
+
   - type: textarea
-    id: goal
+    id: use_case
     attributes:
-      label: What were you trying to achieve?
-      description: Describe your concrete use case.
-    validations:
-      required: true
-  - type: dropdown
-    id: success
+      label: What is your primary use case?
+      description: Briefly describe how you use the system
+
+  - type: markdown
     attributes:
-      label: Did you succeed?
-      options:
-        - Yes
-        - Partially
-        - No
-    validations:
-      required: true
-  - type: textarea
-    id: blockers
-    attributes:
-      label: What blocked or slowed you down?
-      description: Errors, missing features, UX issues, performance, documentation, etc.
-  - type: textarea
-    id: improvements
-    attributes:
-      label: Suggested improvements
-      description: Concrete ideas are welcome.
+      value: |
+        ---
+        *Thank you for your feedback! Your responses help us improve the services for everyone.*
