@@ -13,7 +13,7 @@ We are currently collecting feedback for the following core components:
 | **TechRadar** | Visualizing the research software landscape | [View Service](https://everse.software/TechRadar/) | [View Repo](https://github.com/EVERSE-ResearchSoftware/TechRadar) |
 | **QualityPipelines** | CI/CD templates for quality assurance | | [View Repo](https://github.com/EVERSE-ResearchSoftware/QualityPipelines) |
 | **DashVERSE** | Analytics dashboard for the EVERSE ecosystem | | [View Repo](https://github.com/EVERSE-ResearchSoftware/DashVERSE) |
-| **Training Materials** | Educational resources for research software engineering | [View Service](https://everse-training.app.cern.ch/ ) | |
+| ** EVERSE Training** | Educational resources for research software engineering | [View Service](https://everse-training.app.cern.ch/ ) | |
 
 ---
 
