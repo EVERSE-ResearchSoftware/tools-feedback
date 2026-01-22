@@ -1,48 +1,48 @@
-name: 💬 Quick service feedback (1 minute)
+name: 💬 Quick EVERSE feedback (1 minute)
 description: Fast feedback on a deployed service (takes ~1 minute)
 title: "[Quick feedback] <service>: <short summary>"
-labels: ["status/triage", "source/user", "form/quick"]
+labels:
+  - short feedback
 body:
   - type: dropdown
     id: service
     attributes:
-    label: Which service are you giving feedback on?
-    options:
-      - RSQKit
-      - Dimensions-Indicators
-      - QualityPipelines
-      - TechRadar
-      - DashVERSE
-      - Training Marketplace
-      - Other / cross-service
-    validations:
-      required: true
-  - type: dropdown
-    id: satisfaction
-    attributes:
-    label: Overall experience
-    options:
-    - 1 — Very poor
-    - 2 — Poor
-    - 3 — Acceptable
-    - 4 — Good
-    - 5 — Excellent
+      label: Which service are you reviewing?
+      options:
+        - RSQKit
+        - Dimensions-Indicators
+        - QualityPipelines
+        - TechRadar
+        - DashVERSE
+        - Training Marketplace
+        - Other / cross-service
     validations:
       required: true
 
   - type: dropdown
-    id: worked
+    id: rating
     attributes:
-    label: Did the service allow you to achieve what you wanted?
-    options:
-    - Yes
-    - Partially
-    - No
+      label: How would you rate your experience?
+      options:
+        - 😞 Poor
+        - 😐 Okay
+        - 🙂 Good
+        - 😊 Great
+        - 🤩 Excellent
     validations:
       required: true
 
   - type: textarea
     id: comment
     attributes:
-    label: One short comment (optional)
-    description: What is the most important thing we should know?
+      label: What's on your mind?
+      description: Tell us what worked, what didn't, or what you'd like to see
+      placeholder: Your feedback here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What was your goal? (optional)
+      placeholder: e.g., searching for information, adding missing information...

@@ -1,7 +1,8 @@
 name: 🎓 Detailed Usability Feedback
 description: In-depth feedback on a deployed service (takes ~5–10 minutes)
 title: "[Feedback] <tool>: <short summary>"
-labels: ["status/triage", "form/detailed"]
+labels:
+  - detailed feedback
 
 body:
   - type: dropdown
