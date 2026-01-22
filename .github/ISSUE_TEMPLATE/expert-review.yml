@@ -1,5 +1,8 @@
-name: 🎓 Expert Community Review
-description: Technical feedback from research community experts.
+name: 🎓 Detailed feedback
+description: In-depth feedback on a deployed service (takes ~5–10 minutes)
+title: "[Feedback] <tool>: <short summary>"
+labels: ["status/triage", "form/detailed"]
+
 body:
   - type: dropdown
     id: tool
@@ -11,8 +14,11 @@ body:
         - QualityPipelines
         - TechRadar
         - DashVERSE
+        - Training Marketplace
+        - Other / cross-service
     validations:
       required: true
+
   - type: dropdown
     id: satisfaction
     attributes:
@@ -23,20 +29,89 @@ body:
         - 3 — Acceptable
         - 4 — Good
         - 5 — Excellent
-  - type: textarea
-    id: domain-relevance
-    attributes:
-      label: Domain Relevance
-      description: How does this tool meet the specific needs of your research community?
-  - type: textarea
-    id: synthesis
-    attributes:
-      label: Synthesized feedback
-      description: Distilled themes, not raw comments.
     validations:
       required: true
-  - type: textarea
-    id: nextstep
+
+  - type: dropdown
+    id: domain
     attributes:
-      label: Proposed next step
-      description: Investigation, docs, UX change, discussion, etc.
+      label: Your scientific domain or cluster
+      options:
+        - ESCAPE (Astro & Particle Physics)
+        - ENVRI (Environmental Sciences)
+        - PaNOSC (Photon and Neutron Science)
+        - LS-RI (Life Sciences)
+        - SSHOC (Social Sciences & Humanities)
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your role
+      options:
+        - Policy maker
+        - Principal Investigator (PI)
+        - Research Software Engineer (RSE)
+        - Researcher who codes
+        - Trainer
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tier
+    attributes:
+      label: Software tier concerned
+      options:
+        - Analysis code
+        - Prototype tools
+        - Research software infrastructure
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: needs_rating
+    attributes:
+      label: How well does this tool meet the specific needs of your research community?
+      options:
+        - 1 — Not at all
+        - 2 — Poorly
+        - 3 — Partially
+        - 4 — Well
+        - 5 — Extremely well
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: What were you trying to achieve?
+      description: Describe your concrete use case.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: success
+    attributes:
+      label: Did you succeed?
+      options:
+        - Yes
+        - Partially
+        - No
+    validations:
+      required: true
+
+  - type: textarea
+    id: blockers
+    attributes:
+      label: What blocked or slowed you down?
+      description: Errors, missing features, UX issues, performance, documentation, etc.
+
+  - type: textarea
+    id: improvements
+    attributes:
+      label: Suggested improvements
+      description: Concrete ideas are welcome.
