@@ -7,7 +7,7 @@ Welcome to the central feedback repository for the **EVERSE (European Virtual In
 We are currently collecting feedback for the following core components:
 
 | Tool | Description | Service | Repository |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | **RSQKit** | Research Software Quality Toolkit | [View service](https://everse.software/RSQKit/) | [View Repo](https://github.com/EVERSE-ResearchSoftware/RSQKit) |
 | **Quality Dimensions and Indicators** | List of Software Quality Dimensions and Indicators used in EVERSE | [View service](https://everse.software/indicators/website/indicators.html) | [View Repo](https://github.com/EVERSE-ResearchSoftware/indicators) |
 | **TechRadar** | Visualizing the research software landscape | [View Service](https://everse.software/TechRadar/) | [View Repo](https://github.com/EVERSE-ResearchSoftware/TechRadar) |
