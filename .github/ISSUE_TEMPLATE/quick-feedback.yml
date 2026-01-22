@@ -1,4 +1,4 @@
-name: 💬 Quick EVERSE feedback (1 minute)
+name: ⚡ Quick EVERSE feedback (1 minute)
 description: Fast feedback on a deployed service (takes ~1 minute)
 title: "[Quick feedback] <service>: <short summary>"
 labels:
