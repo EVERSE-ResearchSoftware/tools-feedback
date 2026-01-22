@@ -18,7 +18,6 @@ body:
         - Other / cross-service
     validations:
       required: true
-
   - type: dropdown
     id: satisfaction
     attributes:
@@ -31,7 +30,6 @@ body:
         - 5 — Excellent
     validations:
       required: true
-
   - type: dropdown
     id: domain
     attributes:
@@ -45,7 +43,6 @@ body:
         - Other
     validations:
       required: true
-
   - type: dropdown
     id: role
     attributes:
@@ -59,7 +56,6 @@ body:
         - Other
     validations:
       required: true
-
   - type: dropdown
     id: tier
     attributes:
@@ -71,7 +67,6 @@ body:
         - Not sure
     validations:
       required: true
-
   - type: dropdown
     id: needs_rating
     attributes:
@@ -84,7 +79,6 @@ body:
         - 5 — Extremely well
     validations:
       required: true
-
   - type: textarea
     id: goal
     attributes:
@@ -92,7 +86,6 @@ body:
       description: Describe your concrete use case.
     validations:
       required: true
-
   - type: dropdown
     id: success
     attributes:
@@ -103,13 +96,11 @@ body:
         - No
     validations:
       required: true
-
   - type: textarea
     id: blockers
     attributes:
       label: What blocked or slowed you down?
       description: Errors, missing features, UX issues, performance, documentation, etc.
-
   - type: textarea
     id: improvements
     attributes:
