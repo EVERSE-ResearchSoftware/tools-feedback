@@ -1,26 +1,10 @@
-name: 📝 Detailed Usability Feedback
-description: In-depth feedback on an EVERSE service (takes ~5–10 minutes) |
-    (For the training catalogue, please use the dedicated template)
-title: "[Feedback] <tool>: <short summary>"
+name: 📝 EVERSE Training Catalog Usability Feedback
+description: In-depth feedback on EVERSE Training Catalog (takes ~10–15 minutes)
+title: "[Feedback] EVERSE Training Catalog: <short summary>"
 labels:
   - detailed feedback
 
 body:
-  - type: dropdown
-    id: service
-    attributes:
-      label: Which service are you reviewing?
-      options:
-        - RSQKit
-        - Dimensions-Indicators
-        - QualityPipelines
-        - TechRadar
-        - DashVERSE
-        - EVERSE Training
-        - Other / cross-service
-    validations:
-      required: true
-
   - type: markdown
     attributes:
       value: |
@@ -160,6 +144,90 @@ body:
         - 5 — Strongly Agree
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## Specific Questions (Optional)
+
+  - type: dropdown
+    id: material_rating
+    attributes:
+      label: Would you like to be able to rate the materials and/or select your favorites?
+      options:
+        - 1 — Not needed
+        - 2 — Nice to have
+        - 3 — Moderately useful
+        - 4 — Very useful
+        - 5 — Essential
+    validations:
+      required: false
+
+  - type: dropdown
+    id: chatbot
+    attributes:
+      label: Would you like to have a chatbot to help you find the right course for you?
+      options:
+        - 1 — Not needed
+        - 2 — Nice to have
+        - 3 — Moderately useful
+        - 4 — Very useful
+        - 5 — Essential
+    validations:
+      required: false
+
+  - type: dropdown
+    id: rsqkit_integration
+    attributes:
+      label: How do you rate the connection from the RSQKit to the Training Catalog?
+      options:
+        - 1 — Not working/Unavailable
+        - 2 — Poor/Unreliable
+        - 3 — Adequate/Partially functional
+        - 4 — Good/Works well
+        - 5 — Excellent/Seamlessly integrated
+    validations:
+      required: false
+
+  - type: dropdown
+    id: new_material
+    attributes:
+      label: How do you rate the registration process of a new material?
+      options:
+        - 1 — Not working/Unavailable
+        - 2 — Poor/Unreliable
+        - 3 — Adequate/Partially functional
+        - 4 — Good/Works well
+        - 5 — Excellent/Seamlessly integrated
+    validations:
+      required: false
+
+  - type: dropdown
+    id: new_event
+    attributes:
+      label: How do you rate the registration process of a new event?
+      options:
+        - 1 — Not working/Unavailable
+        - 2 — Poor/Unreliable
+        - 3 — Adequate/Partially functional
+        - 4 — Good/Works well
+        - 5 — Excellent/Seamlessly integrated
+    validations:
+      required: false
+
+  - type: dropdown
+    id: new_trainer
+    attributes:
+      label: How do you rate the registration process of a new trainer?
+      options:
+        - 1 — Not working/Unavailable
+        - 2 — Poor/Unreliable
+        - 3 — Adequate/Partially functional
+        - 4 — Good/Works well
+        - 5 — Excellent/Seamlessly integrated
+    validations:
+      required: false
 
   - type: markdown
     attributes:
