@@ -2,7 +2,7 @@ name: ⚡ Quick feedback (1 minute)
 description: Fast feedback on an EVERSE service (takes ~1 minute)
 title: "[Quick feedback] <service>: <short summary>"
 labels:
-  - short feedback
+  - type:feedback
 body:
   - type: dropdown
     id: service

@@ -2,8 +2,8 @@ name: 📝 EVERSE Training Catalog Usability Feedback
 description: In-depth feedback on EVERSE Training Catalog (takes ~10–15 minutes)
 title: "[Feedback] EVERSE Training Catalog"
 labels:
-  - detailed feedback
-  - training catalog
+  - type:review
+  - project:training
 
 body:
   - type: markdown
