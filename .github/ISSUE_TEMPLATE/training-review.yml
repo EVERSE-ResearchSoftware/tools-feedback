@@ -3,7 +3,7 @@ description: In-depth feedback on EVERSE Training Catalog (takes ~10–15 minute
 title: "[Feedback] EVERSE Training Catalog"
 labels:
   - type:review
-  - project:training
+  - project:training catalog
 
 body:
   - type: markdown
