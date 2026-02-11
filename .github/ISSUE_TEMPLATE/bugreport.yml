@@ -1,0 +1,43 @@
+name: ⚡ Bug report
+description: Bug report on one or several EVERSE service
+title: "[Bug report] <service>: <short summary>"
+labels:
+  - type:bug
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: Which service is concerned?
+      options:
+        - RSQKit
+        - Dimensions-Indicators
+        - QualityPipelines
+        - TechRadar
+        - DashVERSE
+        - EVERSE Training
+        - Other / cross-service
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What were you trying to do?
+      description: Explain the steps you took, add code snippets or similar if applicable
+      placeholder: What you did...
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: What problem did you encounter?
+      placeholder: Describe the error/problem, provide error messages or logs as far as possible.
+    validation:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Which behaviour would you have expected or wanted?
+      placeholder: What should have happened instead ...
