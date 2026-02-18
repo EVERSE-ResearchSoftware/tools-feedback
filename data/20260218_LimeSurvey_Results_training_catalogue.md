@@ -1,4 +1,6 @@
-# Usability Feedback Results (LimeSurvey)
+# Usability Feedback Results (LimeSurvey) for the training catalogue
+
+Results obtained in Feb. 2026
 
 This table contains raw responses collected through a LimeSurvey questionnaire.
 
