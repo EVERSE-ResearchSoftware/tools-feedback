@@ -71,7 +71,7 @@ All non-code contributions, including:
 - Documentation in the `/data` and `/docs` directories
 - This README and other markdown documentation
 
-Are licensed under [CC-BY-4.0](LICENSE-CC-BY-4.0).
+Are licensed under [CC-BY-4.0](LICENSE).
 
 ### Code Contributions: MIT
 
