@@ -1,5 +1,7 @@
 # Feedback EVERSE Services
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18772729.svg)](https://doi.org/10.5281/zenodo.18772729)
+
 Welcome to the central feedback repository for the **EVERSE (European Virtual Institute for Research Software Excellence)** tool suite. This space is dedicated to gathering insights, requirements, and technical reviews to ensure our tools meet the needs of the diverse research software community.
 
 ## 🛠 Our Services
@@ -54,3 +56,30 @@ We use labels to categorize feedback:
 * `persona:expert` — Insights from community experts.
 * `status:planned` — Feedback that has been accepted into the roadmap.
 * `type:bug` — Type of issue as indicated above.
+
+---
+
+## 📜 License
+
+This repository uses a **dual license** structure:
+
+### Non-Code Contributions: CC-BY-4.0
+
+All non-code contributions, including:
+- Issues and bug reports
+- Pull request descriptions and comments
+- Documentation in the `/data` and `/docs` directories
+- This README and other markdown documentation
+
+Are licensed under [CC-BY-4.0](LICENSE-CC-BY-4.0).
+
+### Code Contributions: MIT
+
+All code contributions, including:
+- Python scripts in `/scripts`
+- CI/CD configurations
+- Any executable code or automation scripts
+
+Are licensed under the [MIT License](LICENSE-MIT).
+
+By contributing to this project, you agree to license your contributions under the appropriate license based on the type of contribution.
