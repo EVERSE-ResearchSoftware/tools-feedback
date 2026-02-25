@@ -1,0 +1,30 @@
+number: 23
+title: "[Quick feedback] Training catalog: Errors in training materials and metadata"
+state: open
+author: dgarijo
+labels:
+  - "type:feedback"
+created: "2026-02-16T13:50:49Z"
+updated: "2026-02-16T13:51:19Z"
+exported: "2026-02-25T11:39:14+00:00"
+url: "https://github.com/EVERSE-ResearchSoftware/tools-feedback/issues/23"
+body: |
+  ### Which service are you reviewing?
+  
+  EVERSE Training
+  
+  ### How would you rate your experience?
+  
+  🙂 Good
+  
+  ### What's on your mind?
+  
+  Hello,
+  I detected a few things that may be improved in the training material site:
+  
+  - I cannot edit metadata from training materials that do not belong to me. At least, I would like to propose fixes to things like keywords or URLs.
+  - In https://everse-training.app.cern.ch/materials/software-carpentry it is not clear what course from the carpentry this is linking. For example, it shows in "license", but it is not clear how do I get to any course about licenses.
+  - https://everse-training.app.cern.ch/materials/software-metadata-extraction-framework-somef is not a training material, but a tool for metadata extraction. It can be used to comply with metadata requirements, but per se it's not a training material. Maybe remove?
+  
+  ### What was your goal? (optional)
+  Finding courses on good practices for software metadata/license

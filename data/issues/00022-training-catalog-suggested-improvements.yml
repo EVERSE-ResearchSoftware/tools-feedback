@@ -1,0 +1,34 @@
+number: 22
+title: "[Training catalog] Suggested improvements"
+state: open
+author: "azza-max"
+labels:
+  -
+created: "2026-02-12T13:18:20Z"
+updated: "2026-02-12T13:44:02Z"
+exported: "2026-02-25T11:39:14+00:00"
+url: "https://github.com/EVERSE-ResearchSoftware/tools-feedback/issues/22"
+body: |
+  Based on Eleonora’s feedback , here are some suggestions to improve the feedback template:
+  
+  - Replace the word “system”
+  
+   Everywhere in the survey, replace “system” with “EVERSE training catalogue”.
+  
+  - Add RSQKit link
+  
+  For the question about the connection with RSQKit, include a direct link to RSQKit.
+  
+  - Clarify question 7
+  
+  Check what exactly question 7 is measuring.
+  
+  - People might have biased presumptions about what other people can / cannot do on a web interface. Only their own personal experience as user with the system is valid for us.
+  
+  - Redundancy between questions 2 and 8
+  
+  Question 2: “complex”
+  
+  Question 8: “cumbersome”
+  
+  These seem very similar and could be merged or reworded to avoid redundancy.
