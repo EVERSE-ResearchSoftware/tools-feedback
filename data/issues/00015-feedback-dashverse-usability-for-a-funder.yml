@@ -1,0 +1,86 @@
+number: 15
+title: "[Feedback] DashVerse: usability for a funder"
+state: open
+author: vuillaut
+labels:
+  - "type:review"
+  - "project:DashVERSE"
+created: "2026-02-04T14:55:21Z"
+updated: "2026-02-25T11:28:24Z"
+exported: "2026-02-25T11:39:14+00:00"
+url: "https://github.com/EVERSE-ResearchSoftware/tools-feedback/issues/15"
+body: |
+  ### Which service are you reviewing?
+  
+  DashVERSE
+  
+  ### 1. I think that I would like to use this system frequently
+  
+  3 — Neutral
+  
+  ### 2. I found the system unnecessarily complex
+  
+  4 — Agree
+  
+  ### 3. I thought the system was easy to use
+  
+  2 — Disagree
+  
+  ### 4. I think that I would need the support of a technical person to be able to use this system
+  
+  4 — Agree
+  
+  ### 5. I found the various functions in this system were well integrated
+  
+  3 — Neutral
+  
+  ### 6. I thought there was too much inconsistency in this system
+  
+  3 — Neutral
+  
+  ### 7. I would imagine that most people would learn to use this system very quickly
+  
+  2 — Disagree
+  
+  ### 8. I found the system very cumbersome to use
+  
+  4 — Agree
+  
+  ### 9. I felt very confident using the system
+  
+  2 — Disagree
+  
+  ### 10. I needed to learn a lot of things before I could get going with this system
+  
+  4 — Agree
+  
+  ### How well does this tool meet the specific needs of your research community?
+  
+  3 — Partially
+  
+  ### What did you like most about the system?
+  
+  It looks nice
+  
+  ### What aspects need the most improvement?
+  
+  As a funder, I want to know if the project I funded (or to fund) follows FAIR principles for software.
+  I need to easily run EVERSE assessments on this software (at the moment I needed to install resqui - too complicated - but I'll focus on DashVerse here).
+  I could not find the specific software I assessed in the DashVerse and could not identify if it passes the assessments, nor which assessments.
+  
+  ### Any other comments or suggestions?
+  
+  - A search box to find my software would be nice
+  - A clear list of the indicators that have been tested and the result
+  
+  ### Your scientific domain or cluster
+  
+  None
+  
+  ### Your role
+  
+  Policy maker
+  
+  ### What is your primary use case?
+  
+  A funder who needs to assess the software I will fund

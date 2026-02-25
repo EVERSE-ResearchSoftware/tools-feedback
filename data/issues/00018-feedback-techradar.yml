@@ -1,0 +1,84 @@
+number: 18
+title: "[Feedback] TechRadar"
+state: open
+author: anwarfg
+labels:
+  - "project:techradar"
+created: "2026-02-05T15:31:18Z"
+updated: "2026-02-11T09:08:40Z"
+exported: "2026-02-25T11:39:14+00:00"
+url: "https://github.com/EVERSE-ResearchSoftware/tools-feedback/issues/18"
+body: |
+  ### Which service are you reviewing?
+  
+  TechRadar
+  
+  ### 1. I think that I would like to use this system frequently
+  
+  3 — Neutral
+  
+  ### 2. I found the system unnecessarily complex
+  
+  2 — Disagree
+  
+  ### 3. I thought the system was easy to use
+  
+  4 — Agree
+  
+  ### 4. I think that I would need the support of a technical person to be able to use this system
+  
+  1 — Strongly Disagree
+  
+  ### 5. I found the various functions in this system were well integrated
+  
+  4 — Agree
+  
+  ### 6. I thought there was too much inconsistency in this system
+  
+  1 — Strongly Disagree
+  
+  ### 7. I would imagine that most people would learn to use this system very quickly
+  
+  5 — Strongly Agree
+  
+  ### 8. I found the system very cumbersome to use
+  
+  1 — Strongly Disagree
+  
+  ### 9. I felt very confident using the system
+  
+  4 — Agree
+  
+  ### 10. I needed to learn a lot of things before I could get going with this system
+  
+  1 — Strongly Disagree
+  
+  ### How well does this tool meet the specific needs of your research community?
+  
+  4 — Well
+  
+  ### What did you like most about the system?
+  
+  The visualisation is very nice and easy to use - easy to see and select the relevant tools.
+  
+  ### What aspects need the most improvement?
+  
+  _No response_
+  
+  ### Any other comments or suggestions?
+  
+  The text for the segments can overlap with the dots, making selection of those dots much more difficult. 
+  
+  The section under 'filter by tag' with lists of tool could do with better visual separation between the segments.
+  
+  ### Your scientific domain or cluster
+  
+  Other
+  
+  ### Your role
+  
+  Research Software Engineer (RSE)
+  
+  ### What is your primary use case?
+  
+  _No response_
